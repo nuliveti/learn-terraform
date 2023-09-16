@@ -24,3 +24,12 @@ variable "sample_string" {  #variable name
 variable "sample_boolean" {
     default=true
 }
+
+variable "sample_list" {
+    default = [
+        100,
+        hellow,
+        true,
+        123
+    ]
+}
