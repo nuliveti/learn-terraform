@@ -10,15 +10,6 @@ output "sample_string1" {
 
 
 
-### values from list
-variable  "sample_list"  {
-    default =[
-        100,
-        hellow,
-        false,
-        101
-    ]
-}
 
 ## values from list
 ## second value
