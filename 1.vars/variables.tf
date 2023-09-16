@@ -35,5 +35,5 @@ variable "sample_list" {
 }
 
 output "sample_list_2" {
-    value =var.sample_list["1","3"]
+    value =var.sample_list["1"],["3"]
 }
