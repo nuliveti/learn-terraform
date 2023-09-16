@@ -11,7 +11,7 @@ variable "sample_string"{
 
 #to print in shell script we will use ECHO  following is the sample in shell
 # echo $sample_string
-but in terraform 
+###but in terraform 
 
 output "sample_string" {
     value=var.sample_string   ### this is nothing to $sample_string {var.variable name}
