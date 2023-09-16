@@ -1,7 +1,7 @@
 ####how to declare valiables in teraform
 
 
-variable "sample_string"{
+variable "sample_string2"{
    default= "Hellow world"
 
 }
