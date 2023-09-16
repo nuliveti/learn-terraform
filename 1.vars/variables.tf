@@ -35,5 +35,25 @@ variable "sample_list" {
 }
 
 output "sample_list_2" {
-    value =var.sample_list["1"],["3"]
+    value =var.sample_list[1]
+}
+
+
+variable "sample_dict" {
+    default = {
+        number1=100
+        string1="hellow"
+        boolean=true
+        number2=123
+        
+    }
+}
+
+
+output "sample_dict_num1" {
+    value = var.sample_dict["number1"]
+}
+
+output "sample_dict_bool" {
+    value = var.sample_dict["boolean"]
 }
