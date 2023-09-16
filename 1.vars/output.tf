@@ -14,7 +14,7 @@ output "sample_string1" {
 ## values from list
 ## second value
 output "sample_list_2" {
-    value = var.sample_list[2]
+    value = var.sample_list[1]
 }
 
 
