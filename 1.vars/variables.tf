@@ -33,3 +33,7 @@ variable "sample_list" {
         123
     ]
 }
+
+output "sample_list-2" {
+    value =var.sample_list[1]
+}
