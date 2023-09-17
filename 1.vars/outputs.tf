@@ -21,3 +21,28 @@ output "sample_string1" {
 output "sample_list_3" {
     value = var.sample_list[2]
 }
+
+
+
+### we have a dictonary or MAP means single variable will have multiple values, $ each values is going to have a separate name.
+
+
+variable "sanple_dict" {
+    default={
+        number1=100
+        string1="hellow"
+        boolean=true
+        number2=123
+
+    }
+}
+
+## this list variable type most prefered variables type
+
+
+### we have a dictonary or MAP means single variable will have multiple values, $ each values is going to have a separate name.
+
+output "sample_dict_num1" {
+   value = var.sample_dict["number1"]
+
+}

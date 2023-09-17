@@ -41,3 +41,18 @@ variable "sample_list" {
 ###how to access list variables:
 
 
+### we have a dictonary or MAP means single variable will have multiple values, $ each values is going to have a separate name.
+
+
+variable "sanple_dict" {
+    default={
+        number1=100
+        string1="hellow"
+        boolean=true
+        number2=123
+
+    }
+}
+
+## this list variable type most prefered variables type
+
