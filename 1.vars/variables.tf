@@ -1,3 +1,16 @@
+#how to declare varibles in terraform
+
+variable "sample_string" {
+    default = "hellow world"
+}
+
+# shell acripting equalent sample_string="hellow world"
+
+##access our variable:
+
+##to print in shell script will use ECHO, in terraform as follows
+## echo $sample_string
+### in terraform like below we will refer variable
 
 
 output "sample_string" {
@@ -5,55 +18,10 @@ output "sample_string" {
 }
 
 
+### in above case we are printing just variable, if variable is a combination of some string then  this is the syntax
+### ${ }is mandatory if we include  string 
+
+
 output "sample_string1" {
-    value = "var.sample_string = ${var.sample_string}"
-}
-
-
-#datatypes:
-
-variable "sample_number" {
-    default=100
-}
-
-variable "sample_string" {  #variable name
-   default= "Hellow world"    
-
-}
-
-variable "sample_boolean" {
-    default=true
-}
-
-variable "sample_list" {
-    default = [
-        100,
-        "hi",
-        true,
-        123
-    ]
-}
-
-output "sample_list_2" {
-    value =var.sample_list[1]
-}
-
-
-variable "sample_dict" {
-    default = {
-        number1=100
-        string1="hellow"
-        boolean=true
-        number2=123
-        
-    }
-}
-
-
-output "sample_dict_num1" {
-    value = var.sample_dict["number1"]
-}
-
-output "sample_dict_bool" {
-    value = var.sample_dict["boolean"]
+    value = "value of sample_string = ${var.sample_string}"
 }
