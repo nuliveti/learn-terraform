@@ -52,15 +52,11 @@ output "sample_dict_boolean" {
 
 }
 
-
-
-
-
 output "env" {
     value = var.env
 }
 
 
-output "auto_num" {
+output "auto_num1" {
     value = var.auto_num1
 }
