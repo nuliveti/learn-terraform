@@ -29,7 +29,7 @@ output "sample_boolean" {
 variable "sample_list" {
     default =[
         100
-        hellow,
+        "hellow",
         true
         123
     ]
