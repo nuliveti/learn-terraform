@@ -24,5 +24,20 @@ output "sample_boolean" {
 ## booleans and numbers does not need to quote, only strings need to be quoted that to be with double quote, terraform does not have support for single quotes.
 
 ### variable types:default and list variables
+####list variables: means single variable having multiple values , and each values having multiple names
+
+variable "sample_list" {
+    default =[
+        100,
+        hellow,
+        true,
+        123
+    ]
+}
+
+## data inside the list doest matter in terraform
+
+
+###how to access list variables:
 
 
