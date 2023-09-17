@@ -18,3 +18,6 @@ output "sample_string1" {
 
 #### values from list
 
+output "sample_list 2" {
+    value = var.sample_list
+}

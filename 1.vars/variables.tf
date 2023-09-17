@@ -40,7 +40,4 @@ variable "sample_list" {
 
 ###how to access list variables:
 
-output "sample_list_2" {
-    value = var.sample_list [1]
-}
 
