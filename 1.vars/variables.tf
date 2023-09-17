@@ -18,7 +18,7 @@ variable "sample_boolean" {
 }
 
 
-output "sample_string1" {
+output "sample_boolean" {
     value = "value of sample_boolean = ${var.sample_boolean}"
 }
 ## booleans and numbers does not need to quote, only strings need to be quoted that to be with double quote, terraform does not have support for single quotes.
