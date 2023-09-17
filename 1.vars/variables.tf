@@ -56,3 +56,6 @@ variable "sample_dict" {
 
 ## this list variable type most prefered variables type
 
+variable "env" {}
+
+variable "auto_num1" {}
