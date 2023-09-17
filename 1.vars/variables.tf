@@ -44,7 +44,7 @@ variable "sample_list" {
 ### we have a dictonary or MAP means single variable will have multiple values, $ each values is going to have a separate name.
 
 
-variable "sanple_dict" {
+variable "sample_dict" {
     default={
         number1=100
         string1="hellow"
