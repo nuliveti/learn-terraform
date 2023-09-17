@@ -54,7 +54,7 @@ output "sample_dict_boolean" {
 
 
 
--------
+
 
 output "env" {
     value = var.env
