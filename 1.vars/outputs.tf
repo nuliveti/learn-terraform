@@ -48,6 +48,6 @@ output "sample_dict_num1" {
 }
 
 output "sample_dict_boolean" {
-   value = var.sample_dict[boolean]
+   value = var.sample_dict["boolean"]
 
 }
